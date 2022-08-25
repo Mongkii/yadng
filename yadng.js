@@ -50,9 +50,6 @@ var _dragover = function(e) {
 };
 
 var _drop = function(e) {
-	if (e.stopPropagation) {
-		e.stopPropagation();
-	}
 	if (_yadng.selection) {
 		_yadng.endX = e.x;
 		_yadng.endY = e.y;
